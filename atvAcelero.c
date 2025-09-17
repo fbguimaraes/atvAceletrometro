@@ -9,7 +9,7 @@
 int main() {
     stdio_init_all();
     sleep_ms(2000);
-    printf("Iniciando leitura do MPU6050 apenas com acelerômetro...\n");
+    printf("Iniciando leitura do MPU6050 com acelerômetro...\n");
 
     // Inicializar I2C
     i2c_init(I2C_PORT, 400 * 1000);
